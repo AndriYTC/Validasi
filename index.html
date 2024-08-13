@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap" rel="stylesheet"/>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        >Java<span class="span1"></span><span class="span2">Script</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami </a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="https://github.com/AndriYTC/Validasi" target="_blank" id="code"><i data-feather="code"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar End -->
+
+    <!-- Hero Sections Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h2><span>Bimbingan Online JavaScript</span></h2>
+        <p>
+          Bimbingan Online JavaScript diajarkan secara online
+          
+        </p>
+        <a href="#contact" class="cta">Daftar Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Sections End -->
+
+    <!-- About Section Start   -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3></h3>
+          <p>Dengan mengikuti bimbingan online ini, peserta akan memperoleh keterampilan praktis dalam JavaScript yang dapat diterapkan dalam pengembangan web dan proyek perangkat lunak lainnya.</p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End   -->
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Daftar</span> Sekarang</h2>
+      <p>
+        Masukan identitas untuk mendaftar bimbingan online kita
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31617.10177519253!2d112.50170435008009!3d-7.880655736322221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7887333731fe9f%3A0xea007d403123935!2sBatu%2C%20Kec.%20Batu%2C%20Kota%20Batu%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1716836023900!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="map"
+        ></iframe>
+
+        <form name="formku">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" name="nama" id="nama" placeholder="Username" required>
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" name="nomor" id="nomor" placeholder="Nomor" required>
+          </div><br><br> 
+          <input type="submit" name="daftar" value="daftar" onclick="validasi()">
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer start -->
+    <footer>
+      <div class="socials">
+        <a href="https://www.instagram.com/nabilldstm/" target="_blank"><i data-feather="instagram"></i></a>
+        <a href="https://github.com/AndriYTC" target="_blank"><i data-feather="github"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100086807066861" target="_blank"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Syailendra & Kus</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Feather Icons -->
+
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

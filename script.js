@@ -34,7 +34,7 @@ function validasi() {
     if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
         alert("Email harus berupa huruf,angka,dan @");
         document.getElementById("email").focus();
-        document.formku.nama.value = "";
+        document.formku.email.value = "";
         return false;    
     }
 
